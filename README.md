@@ -9,12 +9,12 @@ Sharing maximally entangled pairs is essential in quantum information processing
 
 ## Repository Structure
 
-### wrapper.py
+### 1) wrapper.py
 
 Script for simulation automatization given a list of points related to the initial EPR and gate fidelities. 
 It should be placed in the same folder as `app_bob.py` and `app_alice.py` for each of the protocols .
 
-### EPL, BBPSSW, DEJMPS and 3-to-1 folders
+### 2) EPL, BBPSSW, DEJMPS and 3-to-1 folders
 
 They contain the scripts needed to execute the NetQASM simulator, using the following command
 ```
@@ -22,7 +22,7 @@ netqasm simulate
 ```
 The input information related to the initial EPR and gate fidelities is stored in `network.yaml`. 
 
-### plotting folder
+### 3) plotting folder
 
 Scripts for plotting:
 - success probability and success fidelity as a function of initial EPR fidelity (including standard deviations and theoretical values)
@@ -34,6 +34,13 @@ Read the following sections of the [report](report.pdf)
 - I. Introduction
 - IV. Results
 - VI. Supplementary Information 
+
+## Authors
+
+- Matteo Arfini
+- Daniel Bedialauneta Rodrígez
+- Marc Serra Peralta
+- Ksenia Shagalov
 
 ## Notes
 - We do not provide any support or assistance for the supplied code nor we offer any other compilation/variant of it.
